@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+ }
+
+ header, footer {
+    background-color: firebrick;
+ }
+ /* class */
+ .site-title{
+    color: azure;
+ }
+ /* id */
+ #my-image{
+    box-shadow: 0px 0px 2px 1px  black;
+ }
+
+ ul {
+    list-style-type: square;
+ }
+
+ li:nth-child(odd) {
+    background-color:chocolate
+ }
+
+ nav li:first-child {
+    background-color: transparent;
+ }
+
+ nav a {
+    text-decoration: none;
+ }
+
+ nav a { /*added color to the links as well to make it readable */
+    border-style: solid;
+    color: black;
+    background-color:chocolate;
+
+    }
+ nav ul {
+    list-style-type: none;
+ }
+ a:hover {
+    background-color: yellow;
+    font-size: 35px;
+  }
