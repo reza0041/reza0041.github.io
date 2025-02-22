@@ -1,0 +1,35 @@
+
+.cover-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+header {
+    position: relative;
+}
+.cover-image-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+nav {
+    text-align: center;
+    margin-top: 0.5px;
+}
+.navigation-bar {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+}
+.navigation-bar li {
+    display: inline;
+    margin: 0  150px;
+    font-size: 2rem;
+}
+

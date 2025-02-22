@@ -3,9 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rezaie Midterm</title>
+    <link rel="stylesheet" href="css/main.css">
+    <title>Midterm</title>
 </head>
 <body>
-    
+    <header>
+        <!-- main heading, cover image and nagivation bar under -->
+        <h1 class="cover-image-title">Lone Starfish</h1>
+        <img src="images/lone-starfish-wide.jpg" alt="wide image of starfish" class="cover-image"> 
+        <nav>
+            <ul class="navigation-bar">
+                <li>HOME</li>
+                <li>STORY</li>
+                <li>CONTACT</li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <section class="bio">
+            <!-- secondary heading, image and paragraph -->
+            <h2>Life of a Starfish</h2>
+            <img src="images/lone-starfish.jpg" alt="image of starfish">
+            <p class="description"></p>
+            <p>
+                Starfish, also known as sea stars, are fascinating marine creatures 
+                found in oceans around the world. Despite their name, they are not 
+                fish but echinoderms, belonging to the same family as sea urchins and 
+                sand dollars. Starfish have a unique radial symmetry, typically displaying 
+                five arms radiating from a central disc, although some species can have more. 
+                Their vibrant colors range from reds and oranges to blues and purples. 
+                Starfish are known for their remarkable ability to regenerate lost limbs, 
+                and some species can even regenerate an entire new body from just a portion of an arm.
+                 They are predatory and feed mainly on mollusks like clams and oysters. 
+                 Using their tube feet, which are located on the underside of their arms, 
+                 they pry open shells and use their stomach to digest prey externally. 
+                 Starfish play a crucial role in marine ecosystems by maintaining 
+                 the balance of marine populations.
+            </p>
+        </section>
+
+        <section class="facts">
+            <h2>Facts About Starfish</h2>
+            <ul>
+                <li>Starfish can regenerate their own arms</li>
+                <li>They have no brain or blood</li>
+                <li>Starfish move with hundreds of feet</li>
+                <li>Not all starfish are star shaped</li>
+            </ul>
+        </section>
+
+        <section class="form">
+            <h2>Contact to learn more</h2>
+            <div>
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your E-mail">
+                <input type="text" placeholder="Your Message"> 
+
+                <h4>Would you like to visit the Starfish?</h4>
+
+                <input type="radio" name="question" value="yes" id="yes">
+                <label for="yes">Yes</label> 
+                <input type="radio" name="question" value="no" id="no">
+                <label for="no">No</label>
+                <input type="radio" name="question" value="maybe" id="maybe">
+                <label for="maybe">Maybe</label><div></div>
+                <button>Send</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Lone Starfish</p>
+    </footer>
 </body>
 </html>
