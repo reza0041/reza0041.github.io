@@ -23,10 +23,9 @@
     <main>
         <section class="bio">
             <!-- secondary heading, image and paragraph -->
-            <h2>Life of a Starfish</h2>
+            <h2 class="subheading">Life of a Starfish</h2>
             <img src="images/lone-starfish.jpg" alt="image of starfish">
-            <p class="description"></p>
-            <p>
+            <p class="description">
                 Starfish, also known as sea stars, are fascinating marine creatures 
                 found in oceans around the world. Despite their name, they are not 
                 fish but echinoderms, belonging to the same family as sea urchins and 
@@ -38,12 +37,12 @@
                  They are predatory and feed mainly on mollusks like clams and oysters. 
                  Using their tube feet, which are located on the underside of their arms, 
                  they pry open shells and use their stomach to digest prey externally. 
-                 Starfish play a crucial role in marine ecosystems by maintaining 
+                 Starfish xplay a crucial role in marine ecosystems by maintaining 
                  the balance of marine populations.
             </p>
         </section>
 
-        <section class="facts">
+        <section id="facts">
             <h2>Facts About Starfish</h2>
             <ul>
                 <li>Starfish can regenerate their own arms</li>
@@ -53,21 +52,24 @@
             </ul>
         </section>
 
-        <section class="form">
+        <section>
             <h2>Contact to learn more</h2>
-            <div>
-                <input type="text" placeholder="Your Name">
-                <input type="email" placeholder="Your E-mail">
-                <input type="text" placeholder="Your Message"> 
-
+            <div id="border">
+                <label class="space" for="name">Your Name</label>
+                <input type="text" class =box><br>
+                <label class="space" for="email">Your E-mail</label>
+                <input type="email" class="box"><br>
+                <label class="space" for="message"> Your Message</label>
+                <input type="text" class="box1"> 
+           
+            
                 <h4>Would you like to visit the Starfish?</h4>
-
                 <input type="radio" name="question" value="yes" id="yes">
                 <label for="yes">Yes</label> 
                 <input type="radio" name="question" value="no" id="no">
                 <label for="no">No</label>
                 <input type="radio" name="question" value="maybe" id="maybe">
-                <label for="maybe">Maybe</label><div></div>
+                <label for="maybe">Maybe</label><br>
                 <button>Send</button>
             </div>
         </section>
