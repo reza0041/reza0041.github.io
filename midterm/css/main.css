@@ -33,7 +33,7 @@ img {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
-
+/* this is the wide image */
 .cover-image-title {
     position: absolute;
     top: 50%;
@@ -49,6 +49,7 @@ nav {
     text-align: center;
     margin-top: 0.5px;
 }
+/* Home | Story | Contact */
 .navigation-bar {
     list-style: none;
     padding: 0;
@@ -61,7 +62,7 @@ nav {
     font-size: 2.3rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
+ /* created borders on the right side of the navigation words */
 .navigation-bar li:not(:last-child) {
     padding-right: 150px;
     border-right: 1px solid #000;
