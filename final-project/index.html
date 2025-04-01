@@ -8,19 +8,21 @@
 </head>
 <body>
         <section>
-            <nav class="nav-bar"> <!--this is top of the web page (navigation bar)-->
-                <img src="images/logo.png" alt="three star logo">
-                <ul>
-                    <li>Home</li>
-                    <li>About us</li>
-                    <li>Services</li>
-                    <li>Team</li>
-                    <li>Contact</li>
-                    <li>Search</li>
-                </ul>
-            </nav>
+            <div>
+                <nav class="nav-bar"> <!--this is top of the web page (navigation bar)-->
+                    <img src="images/logo.png" alt="three star logo">
+                    <ul>
+                        <li>Home</li>
+                        <li>About us</li>
+                        <li>Services</li>
+                        <li>Team</li>
+                        <li>Contact</li>
+                        <li>Search</li>
+                    </ul>
+                </nav>
+            </div>    
          </section>
-        <div class="cover-page">
+        <div class="cover-page"> <!--first and main welcome heading -->
                 <img src="images/main-banner.jpg" alt="background banner image">
                 <h1 class="main-heading">Welcome to Three Star Media</h1>
                 <p class="heading-paragraph">
@@ -49,12 +51,15 @@
                     reiciendis temporibus architecto! Dolore tempore praesentium placeat,
                     ullam exercitationem atque accusamus dolorem facilis?
                 </div>
+
+
+
             </div>
-                <div>
+                <div> <!--use css grid to stylize or flexbox-->
                     <div class="digital-transformation">
                         <h1>Our Services</h1>
                         <img src="images/digital.jpg" alt="image of phone and monitor">
-                        <h2>Digital Transformation</h2>
+                        <h2>Digital Transformation</h2> 
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Officia voluptatibus eligendi voluptas omnis nulla non 
                         architecto optio exercitationem repellat sunt ex, a incidunt 
@@ -107,7 +112,10 @@
                     </div>
                 </div>
 
-                <div> <!--Paper origami section-->
+
+
+                
+                <div> <!-- wide Paper origami section (similar to cover page)-->
                     <div class="origami">
                         <img src="images/vision.jpg" alt="paper origami boat">
                         <h2>Our Vision</h2>
@@ -120,7 +128,7 @@
                     </div>
                 </div>
 
-                <div> <!--this is OUR TEAM section-->
+                <div> <!--this is OUR TEAM section, use flex or grid to sylize-->
                     <div class="co-owner-1">
                         <img src="images/john.jpg" alt="portrait of a guy in pink and blue shirt" class="john">
                         <h1>Our Team</h1>
@@ -144,26 +152,26 @@
                 </div>
 
                 <div>
-                    <div><!--Contact information section with google map in it-->
+                    <div class="contact-us"><!--Contact information section with google map in it-->
                         <h1>Contact Us</h1>
                         <h2>Send us a message</h2>
-                        <label class="space" for="name">Full Name</label>
+                        <label class="space" id="name">Full Name</label>
                         <input type="text" class=box><br>
-                        <label class="space" for="email">Email</label>
+                        <label class="space" id="email">Email</label>
                         <input type="email" class="box"><br>
-                        <label class="space" for="message"> Message</label>
-                        <textarea type="text-area" class="box1"></textarea>
+                        <label class="space" id="message"> Message</label>
+                        <textarea form="text-area" class="box"></textarea>
                         <button class="btn">Send</button>
                     </div>
 
-                    <div>
-                        <h2>Location</h2>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5607.98068310094!2d-75.76333620361862!3d45.34900723428893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1743216569384!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div><!--embeded map from google maps-->
+                        <h2 class="location">Location</h2>
+                        <iframe class="google-maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5607.98068310094!2d-75.76333620361862!3d45.34900723428893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1743216569384!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
 
-                    <div>
-                    <h2>Hours of operation</h2>
-                    <table>
+                    <div><!--colomns and rows will ne add for this section-->
+                    <h2 class="hours">Hours of operation</h2>
+                    <table class="hours-content">
                         <tr>
                             <th>Days</th>
                             <th>Hours</th>
@@ -180,13 +188,13 @@
                     </div>
                 </div>
 
-                <div>
-                    <footer>
+                <div><!--the footer section-->
+                    <footer class="footer">
                         <p>&copy; Copyright Three Star Media, 2020</p>
                         <p>All images are taken from <a href="https://unsplash.com" target="_blank">Unsplash</a></p>
                     </footer>
                 </div>
-        <section>
+            </section>
 
 
 </body>
