@@ -1,81 +1,70 @@
-:root {
-    --orange-color: #c78c06;
-    --beige: #ffe6ac;
-    --dark-gray: #222;
-    --white-color: #fff;
-}
+    /* ----MY COLOR PALETTE---- */
+    /* orange color: #c78c06; 
+    /*beige: #ffe6ac;
+    /*dark gray: #222;
+    /*white: #fff; */
 
-/* CSS reset */
-* {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-}
-
-/* Global Styles */
-body {
-    font-family: "Open Sans", sans-serif;
+* { /* CSS reset */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-.first_section {
-    border: 100px;
-
-}
-
-.navbar {
-    background-color: rgb(40, 39, 39);
-    padding: 0px;
-    margin: 0px;
-    padding: 15px 20px;
-}
-
-.navbar {
-    display: flex;
-    align-items: center;
-    font-size: 20px;
-
-}
-.navbar-text {
-    display: flex;
-}
-.navbar a{
-    color: rgb(212, 145, 0);
     text-decoration: none;
-    padding: 15px;
-    display: block;
-    text-align: center;
+    list-style: none;
 }
 
-.navbar a:hover{
-    background-color:rgb(212, 145, 0);
-    color: rgb(40, 39, 39);
-}
-.navbar li {
-        float: center;
-        list-style-type: none;
-}
-.cover-page img{
-    min-width: 100%;
+body {
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.6;
+    padding: 0;
+    color: #222;
 }
 
-.cover-page {
-    position: relative;
-}
-.cover-box {
-    background-color: grey;
-    position: absolute;
-    top: 300px;
-    left: 300px;
-    bottom: 300px;
-    right: 300px;
-}
+/* Mobile Version */
 
+@media (max-width: 760px) {
+    .container {
+        max-width: 760px;
+    }
+    .header {
+        padding: 1rem;
+    }
+    .nav {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .nav-list-mobile {
+        text-align: center;
+        display: block;
+    }
+    .nav-list-item {
+        margin: 0;
+    }
 
-/* Mobile */
+    .nav-list {
+        display: none;
+    }
 
-@media (min-width: 760px) {
-
+    .nav-logo {
+        margin: 0;
+        width: 15%;
+        height: 15%;
+        background-color: #c78c06;
+        display: none;
+    }
+    .nav-logo-mobile {
+        display: block;
+        background-color: #c78c06;
+        padding: 1rem 0;
+    }
+    .nav-logo-mobile-image{
+        display: block;
+    }
+    .nav-list-item-mobile {
+        color: #222;
+        text-align: center;
+        font-size: 20px;
+    }
+    .search-nav {
+        width: 100%;
+    }
 }
