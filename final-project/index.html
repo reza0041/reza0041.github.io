@@ -58,7 +58,7 @@
                 <button class="main-button">Connect with us &#9654; </button>
             </div>
         </section>
-        <section> <!--this section takes everything in it after about us (the green section)-->
+             <!--this section takes everything in it after about us (the green section)-->
                 <div class="about-us">
                     <div class="about-us-container">   
                         <div class="about-us-image">
@@ -137,7 +137,7 @@
                                         <button class="service-button">Web Plans &#9654; </button>
                                     </div>
                                 </div>
-    
+        
                                 <div class="service-card">
                                     <img src="images/print.jpg" alt="image of a Street">
                                     <div class="service-content">
@@ -164,68 +164,122 @@
                         <button class="vision-button">Learn More &#9654; </button>
                     </div>
                 </section>
-                <div> <!--this is OUR TEAM section, use flex or grid to sylize-->
-                    <div class="co-owner-1">
-                        <img src="images/john.jpg" alt="portrait of a guy in pink and blue shirt" class="john">
-                        <h1>Our Team</h1>
-                        <h3>CEO and Co-owner</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Officia voluptatibus eligendi voluptas omnis nulla non 
-                            architecto optio exercitationem repellat sunt ex, a incidunt 
-                            nobis qui quasi nostrum ratione minus. Quod!
-                        </p>
+        
+                <section class="team-section">
+                    <h1 class="team-heading">Our Team</h1>
+        
+                    <div class="team-container"> <!--this is OUR TEAM section, use flex or grid to sylize-->
+                        <div class="team-member">
+                            <img src="images/john.jpg" alt="portrait of a guy in pink and blue shirt" class="team-img">
+                            <div class="member-description">
+                                <h2>John Doe</h2>
+                                <h3>CEO and Co-owner</h3>
+                                <div class="divider"></div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Officia voluptatibus eligendi voluptas omnis nulla non 
+                                    architecto optio exercitationem repellat sunt ex, a incidunt 
+                                    nobis qui quasi nostrum ratione minus. Quod!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="team-member">
+                            <div class="description">
+                                <h2>Bob Rite</h1>
+                                <h3>CFO and Co-owner</h3>
+                                <div class="divider"></div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Officia voluptatibus eligendi voluptas omnis nulla non 
+                                    architecto optio exercitationem repellat sunt ex, a incidunt 
+                                    nobis qui quasi nostrum ratione minus.
+                                </p>
+                            </div>
+                            <img src="images/bob.jpg" alt="portrait of a guy with glasses" class="team-img">
+                        </div>
                     </div>
-                    <div class="co-owner-2">
-                        <img src="images/bob.jpg" alt="portrait of a guy with glasses" class="bob">
-                        <h1>Our Team</h1>
-                        <h3>CFO and Co-owner</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Officia voluptatibus eligendi voluptas omnis nulla non 
-                            architecto optio exercitationem repellat sunt ex, a incidunt 
-                            nobis qui quasi nostrum ratione minus.
-                        </p>
+                </section>
+        
+        
+        
+            <section class="contact-us-section">
+                <div class="contact-us-container">
+                    <h2 class="contact-us-heading">Contact Us</h2>
+                    <div class="contact-us-form">
+                        <div>                   <!--Contact information section with google map in it-->
+                            <h3 class="contact-headings">Send us a message</h3>
+                            <form class="contact-form">
+                                <label>Full Name</label>
+                                <input class="contact-input" type="text" required>
+        
+                                <label>Email</label>
+                                <input class="contact-input" type="email" required>
+          
+                                <label> Message</label>
+                                <textarea class="contact-text-area" required></textarea>
+        
+                                <button class="contact-button" type="submit">Send</button>
+                            </form>
+                        </div>
+                        <div class="contact-us-table-mobile">
+                            <h3 class="table-heading">Hours of operation</h3>
+                            <table class="hours-table">
+                                <thead>
+                                    <tr>
+                                        <th class="table-days">Days</th>
+                                        <th class="table-hours">Hours</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Monday - Friday</td>
+                                        <td>9 AM - 6 PM</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Saturday - Sunday</td>
+                                        <td>Closed</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <h3 class="contact-headings-mobile">Location</h3>
+                            <iframe class="contact-map-mobile" 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5607.98068310094!2d-75.76333620361862!3d45.34900723428893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1743216569384!5m2!1sen!2sca" 
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <div>
+                            <h3 class="contact-headings-location">Location</h3>
+                            <iframe class="contact-map" 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5607.98068310094!2d-75.76333620361862!3d45.34900723428893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1743216569384!5m2!1sen!2sca" 
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                    <div class="contact-us-table">
+                        <h3 class="table-heading">Hours of Operations</h3>
+                        <table class="hours-table">
+                            <thead>
+                                <tr>
+                                    <th class="table-days">Days</th>
+                                    <th class="table-hours">Hours</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Monday - Friday</td>
+                                    <td>9 AM - 6 PM</td>
+                                </tr>
+                                <tr>
+                                    <td>Saturday - Sunday</td>
+                                    <td>Closed</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
-                <div>
-                    <div class="contact-us"><!--Contact information section with google map in it-->
-                        <h1>Contact Us</h1>
-                        <h2>Send us a message</h2>
-                        <label class="space" id="name">Full Name</label>
-                        <input type="text" class=box><br>
-                        <label class="space" id="email">Email</label>
-                        <input type="email" class="box"><br>
-                        <label class="space" id="message"> Message</label>
-                        <textarea form="text-area" class="box"></textarea>
-                        <button class="btn">Send</button>
-                    </div>
-                    <div><!--embeded map from google maps-->
-                        <h2 class="location">Location</h2>
-                        <iframe class="google-maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5607.98068310094!2d-75.76333620361862!3d45.34900723428893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1743216569384!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <h2 class="hours">Hours of operation</h2>
-                    <table class="hours-content">
-                        <tr>
-                            <th>Days</th>
-                            <th>Hours</th>
-                        </tr>
-                        <tr>
-                            <td>Monday - Friday</td>
-                            <td>9 AM - 6 PM</td>
-                        </tr>
-                        <tr>
-                            <td>Saturday - Sunday</td>
-                            <td>Closed</td>
-                        </tr>
-                    </table>
-                    </div>
+            </section> 
+            <footer class="footer"> <!--the footer section-->
+                <div class="footer-container">
+                    <p class="footer-description">&copy; Copyright Three Star Media, 2020</p>
+                    <p class="footer-description">All images are taken from <a class="footer-link" href="https://unsplash.com" target="_blank">Unsplash</a></p>
                 </div>
-                <div><!--the footer section-->
-                    <footer class="footer">
-                        <p>&copy; Copyright Three Star Media, 2020</p>
-                        <p>All images are taken from <a href="https://unsplash.com" target="_blank">Unsplash</a></p>
-                    </footer>
-                </div>
-        </section>
+            </footer>
     </div>
 </body>
 </html>

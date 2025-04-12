@@ -199,9 +199,158 @@ body {
     color: white;
     font-size: 2rem;
     padding: 30px 25px;
+    border: #ffe6ac;
+    border-style: groove;
+}
+.vision-button:hover {
+    background-color: #c78c06;
 }
 
+/* Team */
 
+.team-section {
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+.team-img {
+    max-width: 550px;
+}
+.team-heading {
+    font-size: 2.5rem;
+}
+.team-member {
+    display: flex;
+    background-color: #ffe6ac;
+}
+.member-description {
+    padding: 1rem;
+}
+.team-member h2 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.team-member h3 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: normal;
+    color: #222;
+}
+.team-member p {
+    margin: 0;
+}
+.divider {
+    height: 2px;
+    background-color: #c78c06;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+/* Contact Us */
+.contact-us-section {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.contact-us-table-mobile {
+    display: none;
+}
+.contact-map-mobile {
+    display: none;
+}
+.contact-headings-mobile {
+    display: none;
+}
+.contact-us-heading {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.contact-headings {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.contact-headings-location {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.contact-us-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 2rem;
+}
+.contact-input, .contact-text-area {
+    width: 530px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.contact-text-area {
+    height: 150px;
+    resize: vertical;
+}
+.contact-button {
+    background-color: #000;
+    color: #c78c06;
+    border: none;
+    padding: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+/* table */
+
+.hours-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+.table-days, .table-hours {
+    background-color: #ffe6ac;
+    text-align: center;
+}
+
+.hours-table th, .hours-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #222;
+}
+.hours-table th {
+    font-weight: bold;
+}
+.table-heading {
+    font-size: 30px;
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #222;
+    padding: 2rem 4rem;
+}
+
+.footer-description {
+    color: #c78c06;
+    font-size: 1rem;
+}
+
+.footer-description:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.footer-link {
+    color: #c78c06;
+    text-decoration: underline;
+}
 
 
 /* Mobile Version */
